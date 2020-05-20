@@ -1,0 +1,15 @@
+.banner{
+    background: url('https://image.tmdb.org/t/p/w533_and_h300_bestv2/97GsCX3k6BbprnBIIMlVKirmhLz.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    position: relative;
+
+    .info-banner{
+        position: absolute;
+        button: 15px;
+    }
+
+}

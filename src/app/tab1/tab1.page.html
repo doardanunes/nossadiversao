@@ -1,17 +1,56 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-toolbar color="primary">
+  <ion-title>
+    Filmes
+  </ion-title>
+</ion-toolbar>
+<ion-content color="dark">
+  <div class="banner">
+    <div class="info-banner">
+      <h2>Gotham</h2>
+      <p>2014 &nbsp;&nbsp; 16 &nbsp;&nbsp; 5 Temporadas</p>
+      <ion-button color="danger" size="small">ASSISTIR</ion-button>
+      <ion-button fill="outline" color="light" size="small">EPISÓDIOS</ion-button>
+    </div>
+  </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+    <h1>Populares</h1>
+    <ion-row>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/wigZBAmNrIhxp2FNGOROUAeHvdh.jpg">
+      </ion-col>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/g6n7TdQSgozArIM0okXTjjCM9Np.jpg">
+      </ion-col>
+    </ion-row>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+    <h1>Em Cartaz</h1>
+    <ion-row>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zEae3Y5gB7e8Z3LZWsMWZcrsf92.jpg">
+      </ion-col>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mIH20h18hrLXRuIoVu3f2vEKsmm.jpg">
+      </ion-col>
+    </ion-row>
+
+    <h1>Próximas Estreias</h1>
+    <ion-row>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/mDt3GkephI5yrRsEgLfdo3MYxyj.jpg">
+      </ion-col>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/nPx3juctkdZvgrJ4DO35dUnVsyF.jpg">
+      </ion-col>
+    </ion-row>
+
+    <h1>Mais bem avaliados</h1>
+    <ion-row>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/qG59J1Q7rpBc1dvku4azbzcqo8h.jpg">
+      </ion-col>
+      <ion-col>
+        <img src="https://image.tmdb.org/t/p/w220_and_h330_face/8kOWDBK6XlPUzckuHDo3wwVRFwt.jpg">
+      </ion-col>
+    </ion-row>
+  </ion-grid> </ion-content>
